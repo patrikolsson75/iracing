@@ -1,0 +1,30 @@
+---
+CalibrationInfo:
+ DeviceList:
+ - DeviceName: 'Sim Pedals'
+   InstanceGUID: '{CCCAA040-BA89-11EC-8016-444553540000}'
+   AxisList:
+   - Axis: 0
+     AxisName: 'Z Axis'
+     CalibMin: 0
+     CalibCenter: 0
+     CalibMax: 65535
+   - Axis: 2
+     AxisName: 'X Axis'
+     CalibMin: 0
+     CalibCenter: 0
+     CalibMax: 65535
+ - DeviceName: 'FANATEC Wheel'
+   InstanceGUID: '{CCCAA040-BA89-11EC-8017-444553540000}'
+   AxisList:
+   - Axis: 3
+     AxisName: 'Wheel Axis'
+     CalibMin: 0
+     CalibCenter: 32901
+     CalibMax: 65535
+   - Axis: 5
+     AxisName: 'X Rotation'
+     CalibMin: -128
+     CalibCenter: -1
+     CalibMax: 127
+...
